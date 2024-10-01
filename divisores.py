@@ -12,13 +12,10 @@ while True:
 
         entrada = input("Ingrese un número natural positivo: ")
 
-
         if not es_numero_natural(entrada):
             raise ValueError("Debe ingresar un número entero positivo.")
 
-
         numero = int(entrada)
-
 
         if numero <= 0:
             raise ValueError("Debe ingresar un número mayor a 0.")
